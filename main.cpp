@@ -5,18 +5,19 @@ using namespace std;
 const int N = 100000;
 int arr[N + 1], dp[N + 1];
 
-int cmmdc(int a, int b) {
-    if (b != 0) {
-        return cmmdc(b, a % b);
+/**
+ * Calculates the greatest common divisor
+ * @param nr1 , nr2 The numbers used to calculate the gcd
+ */
+int gcd(int nr1, int nr2) {
+    if (nr2 != 0) {
+        return gcd(nr2, nr1 % nr2);
     }
-    return a;
+    return nr1;
 }
 
 bool valid(int nr1, int nr2) {
-    if (cmmdc(nr1, nr2) == 1) {
-        return false;
-    }
-    return true;
+    return gcd(nr1, nr2) != 1;
 }
 
 int main() {
