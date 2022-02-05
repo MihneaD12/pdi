@@ -1,0 +1,3 @@
+C:/Users/Mihnea School/CLionProjects/pdi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mihnea School/CLionProjects/pdi/cmake-build-debug/CMakeFiles/pdi.dir
+C:/Users/Mihnea School/CLionProjects/pdi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
